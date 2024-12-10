@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="survey-container">
+    <h1>The ultimate nerd test</h1>
+    
+    <div class="survey-description">
+        <p>In this survey, each theme is scored on a scale from 0 to a maximum value (the number next to '1 - '), depending on your interest in the theme. Your total score will be calculated based on your responses, with the maximum possible score being 17,040. The higher your score, the more "nerdy" you are! Here's a fun breakdown of what your score means:</p>
+        
+        <ul>
+          <li><strong>0-500:</strong> <em>Casual Muggle</em>  
+            <p>You’re here to check things out, but you're not diving into the deep end just yet. Maybe you like a good movie, but you're not living and breathing fandoms.</p>
+          </li>
+          
+          <li><strong>501-1000:</strong> <em>Casual Gamer</em>  
+            <p>You know your way around some fandoms, maybe catch a few anime episodes or play a Pokémon game every now and then. You're starting to get a taste for what’s out there, but you're not fully immersed.</p>
+          </li>
+          
+          <li><strong>1001-2000:</strong> <em>Wannabe Wizard</em>  
+            <p>You've probably started collecting some Funko Pops, maybe got into Vocaloid or D&D, and you know your favorite characters by name. You’ve dipped your toes into nerd culture, and you're loving it.</p>
+          </li>
+          
+          <li><strong>2001-3000:</strong> <em>Pokémon Trainer</em>  
+            <p>You’ve got a favorite anime, you've played through at least one RPG like *Final Fantasy* or *Persona*, and you're probably debating on which Vocaloid to stan. You’ve definitely leveled up from casual to enthusiast.</p>
+          </li>
+          
+          <li><strong>3001-5000:</strong> <em>Dungeon Master</em>  
+            <p>You’re not just in the fandoms, you're part of them. You have a *Pokédex* full of obscure Pokémon, you can quote your favorite anime episodes by heart, and you’ve probably rolled a few D20s in your time. Nerdy, but with pride!</p>
+          </li>
+          
+          <li><strong>5001-7000:</strong> <em>Otaku Overlord</em>  
+            <p>You are deep into your fandoms—maybe you’ve been to conventions, and your shelves are full of figures. You've reached the point where you get into heated debates about *Attack on Titan* vs *My Hero Academia*, and you could probably cosplay as any character you choose.</p>
+          </li>
+          
+          <li><strong>7001-9000:</strong> <em>Vocaloid Virtuoso</em>  
+            <p>You know the lore, the trivia, and you might even have a shrine to your favorite character. Whether you're singing along to *Miku* or discussing *Star Wars* theory, your nerdiness is practically an art form at this point.</p>
+          </li>
+          
+          <li><strong>9001-10,000:</strong> <em>Legendary Superfan</em>  
+            <p>You’ve mastered the fandoms. You can name every *One Piece* arc, know the exact stats of your favorite Pokémon, and your D&D character has a whole backstory. You're the go-to expert in all things nerdy.</p>
+          </li>
+          
+          <li><strong>10,001-15,000:</strong> <em>Master of the Multiverse</em> (Suspiciously high!)  
+            <p>Your nerdiness is starting to raise some eyebrows. You might know every *Marvel* movie line and have a *Vocaloid* playlist longer than a Netflix queue. Maybe you've even *become* the fandom. You might be spending just a *bit* too much time here...</p>
+          </li>
+          
+          <li><strong>15,001-17,040:</strong> <em>Ultimate Nerd Overlord</em> (You’ve crossed into <strong>suspicious</strong> territory!)  
+            <p>You’ve achieved god-tier status in nerd culture. You probably own a *Pokémon* gym, can name every *Vocaloid* character in a rap battle, and can quote *Lord of the Rings* in Elvish. You’ve reached a level of nerddom that’s borderline legendary… and a little suspicious!</p>
+          </li>
+        </ul>
+        <p>Anything above 10,000? Yeah... we might need to check if you're secretly running a D&D campaign with your friends 24/7!</p>
+      </div>
+      
+
+
+    <form id="survey-form">
+      <!-- Themes will be inserted here dynamically -->
+    </form>
+
+    <div class="submit-container">
+      <button type="button" id="submit-btn">Submit</button>
+    </div>
+
+    <div id="result" class="result-container">
+      <p>Your total score is: <span id="total-score">0</span></p>
+    </div>
+  </div>
+
+  <div id="category-result" class="result-container">
+    <p>Your category is: <span id="user-category">Undefined</span></p>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
