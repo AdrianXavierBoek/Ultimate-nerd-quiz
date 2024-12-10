@@ -1,6 +1,5 @@
 // List of themes to be ranked
 const themes = [
-    [
         { name: "Dark Souls series", max_score: 40 },
         { name: "Star Wars universe", max_score: 50 },
         { name: "The Lord of the Rings", max_score: 50 },
@@ -162,8 +161,6 @@ const themes = [
         { name: "Tales of series", max_score: 45 },
         { name: "Katamari Damacy", max_score: 35 },
         { name: "Nier series", max_score: 50 }
-      ]
-      
       ];
   
 
