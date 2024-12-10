@@ -207,6 +207,6 @@ const themes = [
   // Handle submit button click
   submitButton.addEventListener('click', () => {
     const totalScore = calculateTotalScore();
-    totalScoreElement.innerText = `Your total score is ${totalScore} / ${highestPossibleScore}`;
+    totalScoreElement.innerText = ` ${totalScore} / ${highestPossibleScore}`;
     resultContainer.style.display = 'block';
   });
